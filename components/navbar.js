@@ -1,5 +1,5 @@
 document.write(` 
-	<nav class="navbar navbar-expand-lg d-block">
+	<nav class="navbar navbar-expand-lg d-block py-lg-4">
 		<div class="container">
 			<button class="navbar-toggler" type="button">
 				<i class="bi bi-search"></i>
@@ -26,42 +26,42 @@ document.write(`
 					<ul class="navbar-nav me-lg-auto navbar-nav-lg-vr text-capitalize">
 						<li class="nav-item">
 							<a class="nav-link" href="#">
-								<h4 class="fs-reset mb-0">tentang kami</h4>
+								<h4 class="fs-reset mb-0 lh-base">tentang kami</h4>
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">
-								<h4 class="fs-reset mb-0">produk</h4>
+								<h4 class="fs-reset mb-0 lh-base">produk</h4>
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">
-								<h4 class="fs-reset mb-0">bisnis</h4>
+								<h4 class="fs-reset mb-0 lh-base">bisnis</h4>
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">
-								<h4 class="fs-reset mb-0">official store</h4>
+								<h4 class="fs-reset mb-0 lh-base">official store</h4>
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">
-								<h4 class="fs-reset mb-0">berita & acara</h4>
+								<h4 class="fs-reset mb-0 lh-base">berita & acara</h4>
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">
-								<h4 class="fs-reset mb-0">brosur</h4>
+								<h4 class="fs-reset mb-0 lh-base">brosur</h4>
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">
-								<h4 class="fs-reset mb-0">karir</h4>
+								<h4 class="fs-reset mb-0 lh-base">karir</h4>
 							</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">
-								<h4 class="fs-reset mb-0">kontak</h4>
+								<h4 class="fs-reset mb-0 lh-base">kontak</h4>
 							</a>
 						</li>
 					</ul>
