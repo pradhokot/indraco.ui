@@ -1,0 +1,39 @@
+@media (min-width: 992px) {
+	.navbar-nav.navbar-nav-lg-vr > .nav-item {
+		position: relative;
+	}
+
+	.navbar-nav.navbar-nav-lg-vr > .nav-item::before {
+		content: '|';
+		position: absolute;
+		top: 50%;
+		left: 100%;
+		transform: translate(-50%, -50%);
+		font-size: 1.25em;
+		color: inherit;
+		opacity: .25;
+		line-height: 1;
+	}
+
+	.navbar-nav.navbar-nav-lg-vr > .nav-item:last-child::before {
+		opacity: 0;
+	}
+
+	.navbar-nav .nav-link {
+		padding-left: .75rem !important;
+		padding-right: .75rem !important;
+	}
+
+	.navbar-collapse > .navbar-nav,
+	.offcanvas-lg > .offcanvas-body > form {
+		margin-right: -.75rem;
+	}
+
+	.offcanvas-lg > .offcanvas-body > .navbar-nav {
+		margin-left: -.75rem;
+	}
+}
+
+.fs-reset {
+	font-size: inherit !important;
+}

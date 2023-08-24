@@ -1,0 +1,10 @@
+html, body {
+	font-family: 'HelveticaNeue';
+}
+
+
+.btn,
+.navbar-toggler {
+	border-radius: 0;
+	border-color: transparent;
+}
