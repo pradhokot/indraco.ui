@@ -45,3 +45,9 @@
 .navbar .btn {
 	color: inherit !important;
 }
+
+@media (max-width: 991.98px) {
+	.offcanvas-navbar {
+		max-width: 320px;
+	}
+}

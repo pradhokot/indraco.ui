@@ -3,6 +3,16 @@ html, body {
 	color: #565656;
 }
 
+.wrapper > section {
+	padding-top: calc(70px + 1vw);
+	margin-bottom: calc(70px + 1vw);
+	border-top: solid 1px rgba(0, 0, 0, .175);
+}
+
+.wrapper > section:first-of-type {
+	border-top: solid 1px transparent;
+}
+
 .bg-light {
 	background-color: #f2f2f2 !important;
 }
@@ -12,7 +22,8 @@ html, body {
 }
 
 .btn,
-.navbar-toggler {
+.navbar-toggler,
+.form-control {
 	border-radius: 0;
 	border-color: transparent;
 }
