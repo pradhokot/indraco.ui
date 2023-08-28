@@ -50,4 +50,12 @@
 	.offcanvas-navbar {
 		max-width: 320px;
 	}
+
+	.navbar-toggler:first-of-type {
+		margin-left: -.75rem;
+	}
+
+	.navbar-toggler:last-of-type {
+		margin-right: -.75rem;
+	}
 }

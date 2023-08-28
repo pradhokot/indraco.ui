@@ -1,13 +1,13 @@
 document.write(` 
 	<footer id="copyright" class="bg-light small border-top">
 		<div class="container py-5">
-			<div class="row row-cols-1 row-cols-lg-auto gap-5 justify-content-lg-between">
-				<div class="col">
+			<div class="row gy-5 gy-lg-0 gx-xl-5 justify-content-lg-between">
+				<div class="col col-12 col-lg-auto">
 					<img src="img/logo/logo-baru-gray.png" width="auto" height="32">
 					<br>
 					<small>Indraco Roasting fine exquisite coffee since 1971.</small>
 				</div>
-				<div class="col">
+				<div class="col col-12 col-md-6 col-lg-auto">
 					<h5 class="fs-6 fw-medium mb-3">HALAMAN PRODUK</h5>
 					<ul class="list-unstyled row row-cols-2 mb-0 text-uppercase" style="max-width: 320px;">
 						<li class="col">
@@ -52,7 +52,7 @@ document.write(`
 						</li>
 					</ul>
 				</div>
-				<div class="col">
+				<div class="col col-12 col-md-6 col-lg-auto">
 					<h5 class="fs-6 fw-medium mb-3">HUBUNGI KAMI</h5>
 					<p class="mb-0">
 						Jl. Raya Mayjend. Yono Soewoyo No. 66 
@@ -70,7 +70,7 @@ document.write(`
 				</div>
 			</div>
 		</div>
-		<hr class="m-0 opacity-50">
+		<hr class="m-0">
 		<div class="container py-3 small">
 			<div class="d-flex flex-column gap-3 flex-lg-row align-items-lg-center justify-content-lg-between">
 				<nav style="--bs-breadcrumb-divider: '|';" aria-label="breadcrumb">

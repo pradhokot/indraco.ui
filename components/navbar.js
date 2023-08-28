@@ -9,11 +9,11 @@ document.write(`
 				<img src="img/logo/logo-baru-dark.png" width="auto" height="32" class="d-none d-lg-block">
 				<h1 class="position-absolute top-50 start-50 translate-middle fs-3 opacity-0">INDRACO</h1>
 			</a>
-			<button class="navbar-toggler" type="button">
+			<button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#modalSearching">
 				<i class="bi bi-search"></i>
 			</button>
 			<div class="collapse navbar-collapse">
-				<script type="text/javascript" src="components/navbar-language.js"></script>
+				<script type="text/javascript" src="components/navbar_language.js"></script>
 			</div>
 		</div>
 		<div class="container">
@@ -66,14 +66,14 @@ document.write(`
 						</li>
 					</ul>
 					<form class="d-none d-lg-flex" role="search">
-						<button class="btn" type="submit">
+						<button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#modalSearching">
 							<i class="bi bi-search"></i>
 						</button>
 					</form>
 				</div>
 				<div class="offcanvas-header d-block d-lg-none">
 					<hr>
-					<script type="text/javascript" src="components/navbar-language.js"></script>
+					<script type="text/javascript" src="components/navbar_language.js"></script>
 				</div>
 			</div>
 		</div>
