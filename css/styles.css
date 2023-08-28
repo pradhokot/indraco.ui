@@ -25,7 +25,8 @@ body {
 
 .btn,
 .navbar-toggler,
-.form-control {
+.form-control,
+.btn-close {
 	border-radius: 0;
 	border-color: transparent;
 }
