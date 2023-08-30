@@ -43,7 +43,7 @@ document.write(`
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="business.html">
                                 <h4>bisnis</h4>
                             </a>
                         </li>
