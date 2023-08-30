@@ -1,127 +1,95 @@
 document.write(`
-<nav class="navbar navbar-expand-lg d-block py-lg-4 text-nowrap text-capitalize">
+<nav class="navbar navbar-expand-lg d-block text-capitalize">
 
     <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navcol_sidebar"
-            aria-controls="navcol_sidebar" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
             <i class="bi bi-three-dots-vertical"></i>
         </button>
-        <a class="navbar-brand position-relative d-flex justify-content-center align-items-center mx-0"
-            href="index.html">
-            <img src="img/logo/logo-baru-dark.png" width="auto" height="20" class="d-lg-none">
-            <img src="img/logo/logo-baru-dark.png" width="auto" height="32" class="d-none d-lg-block">
-            <h1 class="position-absolute top-50 start-50 translate-middle fs-3 opacity-0">INDRACO</h1>
+        <a class="navbar-brand d-flex justify-content-center align-content-center m-0 position-relative" href="index.html">
+            <img src="img/logo/logo-baru-dark.png" width="auto" height="20" alt="" class="d-lg-none">
+            <img src="img/logo/logo-baru-dark.png" width="auto" height="36" alt="" class="d-none d-lg-block">
+            <h1 class="position-absolute top-50 start-50 translate-middle fs-reset opacity-0">INDRACO</h1>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#modalSearching">
+        <button class="navbar-toggler">
             <i class="bi bi-search"></i>
         </button>
         <div class="collapse navbar-collapse">
-            <script type="text/javascript" src="components/navbar_language.js"></script>
+            <script src="components/navbar_language.js"></script>
         </div>
     </div>
 
     <div class="container">
-        <div class="offcanvas-navbar offcanvas-lg offcanvas-start w-100 text-reset" data-bs-backdrop="static"
-            data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="navcol_sidebar"
-            aria-labelledby="navcol_sidebarLabel">
-            <div class="offcanvas-header">
-                <h1 class="offcanvas-title fs-5 opacity-50" id="navcol_sidebarLabel">INDRACO</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
-                    data-bs-toggle="offcanvas" data-bs-target="#navcol_sidebar"></button>
-            </div>
-            <div class="offcanvas-body py-0">
-                <ul class="navbar-nav me-lg-auto navbar-nav-lg-vr">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <h4 class="fs-reset mb-0 lh-base">tentang kami</h4>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="collapse" href="#navcol_product">
-                            <h4 class="fs-reset mb-0 lh-base">produk</h4>
-                        </a>
-                        <div class="d-lg-none">
-                            <div class="collapse" id="navcol_product">
-                                <script src="components/navbar_product.js"></script>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <h4 class="fs-reset mb-0 lh-base">bisnis</h4>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <h4 class="fs-reset mb-0 lh-base">official store</h4>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <h4 class="fs-reset mb-0 lh-base">berita & acara</h4>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <h4 class="fs-reset mb-0 lh-base">brosur</h4>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <h4 class="fs-reset mb-0 lh-base">karir</h4>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <h4 class="fs-reset mb-0 lh-base">kontak</h4>
-                        </a>
-                    </li>
-                </ul>
-                <form class="d-none d-lg-flex" role="search">
-                    <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#modalSearching">
-                        <i class="bi bi-search"></i>
-                    </button>
-                </form>
-            </div>
-            <div class="offcanvas-header d-block d-lg-none">
-                <hr class="mt-0">
-                <script type="text/javascript" src="components/navbar_language.js"></script>
-            </div>
-        </div>
-    </div>
+        <div class="offcanvas-lg offcanvas-start w-100" data-bs-scroll="true" data-bs-backdrop="static" tabindex="-1"
+            id="sidebar" aria-labelledby="sidebarLabel">
 
-    <!-- collapse menu produk -->
-    <div class="d-none d-lg-block">
-        <div class="container">
-            <div class="collapse" id="navcol_product">
-                <div class="d-flex flex-row gap-5">
-                    <div>
-                        <script src="components/navbar_product.js"></script>
-                    </div>
-                    <div class="tab-content">
-                        <div class="tab-pane fade show active" id="tab_consumen_product" role="tabpanel" tabindex="0">
-                            <script src="components/navbar_consumen_product.js"></script>
-                        </div>
-                        <div class="tab-pane fade" id="tab_foodservice" role="tabpanel" tabindex="0">
-                            <h5>tab mesin</h5>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet veniam
-                                necessitatibus aut debitis. Hic, porro deleniti? Architecto tenetur earum,
-                                pariatur beatae eius molestias nam quidem aliquam ea, voluptatum, eum magni.
-                            </p>
-                        </div>
-                        <div class="tab-pane fade" id="tab_machine_peralatan" role="tabpanel" tabindex="0">
-                            <h5>tab machine</h5>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta fuga nam laborum
-                                voluptatibus vel porro. Fugiat excepturi esse voluptas quasi minima illum
-                                dolores. Fugiat, pariatur ipsa velit hic voluptatum ducimus.
-                            </p>
-                        </div>
-                    </div>
+            <div class="offcanvas-header pb-0">
+                <h5 class="offcanvas-title opacity-50" id="sidebarLabel">
+                    <img src="img/logo/logo-baru-dark.png" width="auto" height="20" alt="">
+                </h5>
+                <button type="button" class="btn-close" data-bs-toggle="offcanvas" data-bs-target="#sidebar"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav nav-breadcrumb me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+                                <h4>tentang kami</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <h4>produk</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <h4>bisnis</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <h4>official store</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <h4>berita & acara</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <h4>brosur</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <h4>karir</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <h4>kontak</h4>
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-none d-lg-flex border" role="search">
+                        <input class="form-control me-2 text-reset bg-transparent border-0" type="search"
+                            placeholder="Pencarian" aria-label="Search">
+                        <button class="btn text-reset" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
+
+            <div class="offcanvas-header d-block d-lg-none pt-0">
+                <hr class="mt-0">
+                <script src="components/navbar_language.js"></script>
+            </div>
         </div>
+
     </div>
+
 </nav>
 `)

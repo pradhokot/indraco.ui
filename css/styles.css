@@ -1,8 +1,12 @@
 html,
 body {
 	font-family: 'HelveticaNeue';
-	/* color: #565656; */
-	color: #fd4f00;
+	color: #565656;
+	/* color: #fd4f00; */
+}
+
+body {
+	overflow-x: hidden;
 }
 
 .wrapper>section {
@@ -38,5 +42,19 @@ body {
 
 .breadcrumb-item+.breadcrumb-item::before {
 	color: inherit !important;
-	opacity: .25;
+	opacity: .5;
+}
+
+.fs-reset {
+	font-size: inherit !important;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+@media (min-width: 992px) {
+	.w-lg-auto {
+		width: auto !important;
+	}
 }
