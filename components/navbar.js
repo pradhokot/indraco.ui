@@ -68,7 +68,7 @@ document.write(`
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="nav_contact" href="#">
+                            <a class="nav-link" id="nav_contact" href="contact.html">
                                 <h4>kontak</h4>
                             </a>
                         </li>

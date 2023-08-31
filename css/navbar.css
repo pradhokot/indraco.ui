@@ -80,7 +80,7 @@
         height: 3px;
         background-color: #fd4f00;
         position: absolute;
-        bottom: .25rem;
+        bottom: .325rem;
         left: 50%;
         transform: translateX(-50%);
     }
