@@ -11,7 +11,7 @@ document.write(`
 		</a>
 	</li>
 	<li class="nav-item">
-		<a class="nav-link" href="#">
+		<a class="nav-link active" href="#">
 			<h4><img src="img/flag/ina.png" width="auto" height="21" alt=""> bahasa</h4>
 		</a>
 	</li>

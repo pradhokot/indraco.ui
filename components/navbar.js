@@ -33,7 +33,7 @@ document.write(`
                 <div class="navbar-collapse">
                     <ul class="navbar-nav nav-breadcrumb me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">
+                            <a class="nav-link active" href="about.html">
                                 <h4>tentang kami</h4>
                             </a>
                         </li>
@@ -48,7 +48,7 @@ document.write(`
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="store.html">
                                 <h4>official store</h4>
                             </a>
                         </li>

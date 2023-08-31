@@ -21,10 +21,21 @@
 .navbar button {
     --bs-text-opacity: 1;
     color: inherit;
+    transition: all .36s;
 }
 
 .navbar .nav-link {
     white-space: nowrap;
+    opacity: .75;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    opacity: 1;
+}
+
+.navbar .nav-link.active {
+    color: #fd4f00;
 }
 
 .navbar .nav-link>h4 {
@@ -45,6 +56,16 @@
 
     .navbar .container:nth-of-type(2) .offcanvas-body>.navbar-collapse>.navbar-nav {
         margin-left: -.75rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar .container:nth-of-type(1) .navbar-toggler:first-of-type {
+        margin-left: -.75rem;
+    }
+
+    .navbar .container:nth-of-type(1) .navbar-toggler:last-of-type {
+        margin-right: -.75rem;
     }
 }
 
