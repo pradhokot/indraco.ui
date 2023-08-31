@@ -33,27 +33,27 @@ document.write(`
                 <div class="navbar-collapse">
                     <ul class="navbar-nav nav-breadcrumb me-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="about.html">
+                            <a class="nav-link" id="nav_about" href="about.html">
                                 <h4>tentang kami</h4>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" id="nav_product" href="product.html">
                                 <h4>produk</h4>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="business.html">
+                            <a class="nav-link" id="nav_business" href="business.html">
                                 <h4>bisnis</h4>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="store.html">
+                            <a class="nav-link" id="nav_store" href="store.html">
                                 <h4>official store</h4>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" id="nav_news" href="#">
                                 <h4>berita & acara</h4>
                             </a>
                         </li>
@@ -63,12 +63,12 @@ document.write(`
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" id="nav_career" href="#">
                                 <h4>karir</h4>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" id="nav_contact" href="#">
                                 <h4>kontak</h4>
                             </a>
                         </li>
