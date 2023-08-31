@@ -69,6 +69,23 @@
     }
 }
 
+@media (min-width: 992px) {
+    .navbar .nav-link.active {
+        position: relative;
+    }
+
+    .navbar .nav-link.active::before {
+        content: '';
+        width: calc(100% - 1.5rem);
+        height: 3px;
+        background-color: #fd4f00;
+        position: absolute;
+        bottom: .25rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 
 /* ============================ breadcrumb on navbar */
 .navbar .navbar-nav.nav-breadcrumb .nav-item {
