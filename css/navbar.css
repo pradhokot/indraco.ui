@@ -1,0 +1,117 @@
+/* ============================ topbar */
+#topbar {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity));
+}
+
+
+/* ============================ navbar */
+.navbar {
+    padding: .75rem 0;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        padding-top: calc(1.5rem + 1vw);
+    }
+}
+
+.navbar a,
+.navbar input,
+.navbar button {
+    --bs-text-opacity: 1;
+    color: inherit;
+    transition: all .36s;
+}
+
+.navbar .nav-link {
+    white-space: nowrap;
+    opacity: .75;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    opacity: 1;
+}
+
+.navbar .nav-link.active {
+    color: #fd4f00;
+}
+
+.navbar .nav-link>h4 {
+    font-size: inherit;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (min-width: 992px) {
+    .navbar .navbar-nav .nav-link {
+        padding-left: .75rem;
+        padding-right: .75rem;
+    }
+
+    .navbar .container:nth-of-type(1) .navbar-nav {
+        margin-right: -.75rem;
+    }
+
+    .navbar .container:nth-of-type(2) .offcanvas-body>.navbar-collapse>.navbar-nav {
+        margin-left: -.75rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar .container:nth-of-type(1) .navbar-toggler:first-of-type {
+        margin-left: -.75rem;
+    }
+
+    .navbar .container:nth-of-type(1) .navbar-toggler:last-of-type {
+        margin-right: -.75rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-link.active {
+        position: relative;
+    }
+
+    .navbar .nav-link.active::before {
+        content: '';
+        width: calc(100% - 1.5rem);
+        height: 3px;
+        background-color: #fd4f00;
+        position: absolute;
+        bottom: .325rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+/* ============================ breadcrumb on navbar */
+.navbar .navbar-nav.nav-breadcrumb .nav-item {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .navbar .navbar-nav.nav-breadcrumb .nav-item::before {
+        content: "|";
+        float: left;
+        padding: .5rem 0;
+        transform: translateX(-50%);
+        color: inherit;
+        opacity: .5;
+    }
+
+    .navbar .navbar-nav.nav-breadcrumb .nav-item:first-of-type:before {
+        opacity: 0;
+    }
+}
+
+
+/* ============================ navbar sidebar */
+@media (max-width: 991.98px) {
+    #sidebar {
+        max-width: 320px;
+        color: inherit;
+    }
+}
