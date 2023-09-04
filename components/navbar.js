@@ -53,17 +53,17 @@ document.write(`
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="nav_news" href="#">
+                            <a class="nav-link" id="nav_news" href="news.html">
                                 <h4>berita & acara</h4>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#" target="_blank">
                                 <h4>brosur</h4>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="nav_career" href="#">
+                            <a class="nav-link" id="nav_career" href="career.html">
                                 <h4>karir</h4>
                             </a>
                         </li>
@@ -74,7 +74,7 @@ document.write(`
                         </li>
                     </ul>
                     <form class="d-none d-lg-flex border" role="search">
-                        <input class="form-control me-2 text-reset bg-transparent border-0" type="search"
+                        <input class="form-control me-2 bg-transparent border-0" type="search"
                             placeholder="Pencarian" aria-label="Search">
                         <button class="btn text-reset" type="submit">
                             <i class="bi bi-search"></i>

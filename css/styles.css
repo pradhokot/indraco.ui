@@ -1,8 +1,8 @@
 html,
 body {
 	font-family: 'HelveticaNeue';
-	color: #565656;
-	/* color: #fd4f00; */
+	/* color: #565656; */
+	color: #fd4f00;
 }
 
 body {
@@ -30,9 +30,17 @@ body {
 .btn,
 .navbar-toggler,
 .form-control,
-.btn-close {
+.btn-close,
+.form-select {
 	border-radius: 0;
 	border-color: transparent;
+}
+
+.form-control,
+.list-group-item,
+.figure-caption {
+	color: inherit !important;
+	font-size: inherit !important;
 }
 
 .form-control::placeholder {
@@ -57,4 +65,22 @@ body {
 	.w-lg-auto {
 		width: auto !important;
 	}
+}
+
+
+/* ---------------- custom marker circle */
+ul.marker-circle {
+	list-style-type: none !important;
+	padding-left: .5rem;
+}
+
+ul.marker-circle>li::marker {
+	font-family: "bootstrap-icons";
+	content: "\f287";
+	font-size: .5em;
+	color: inherit;
+}
+
+ul.marker-circle>li {
+	padding-left: .875rem;
 }
