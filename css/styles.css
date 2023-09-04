@@ -1,8 +1,8 @@
 html,
 body {
 	font-family: 'HelveticaNeue';
-	/* color: #565656; */
-	color: #fd4f00;
+	color: #565656;
+	/* color: #fd4f00; */
 }
 
 body {
@@ -71,16 +71,16 @@ body {
 /* ---------------- custom marker circle */
 ul.marker-circle {
 	list-style-type: none !important;
-	padding-left: .5rem;
+	padding-left: .325rem;
 }
 
 ul.marker-circle>li::marker {
 	font-family: "bootstrap-icons";
 	content: "\f287";
-	font-size: .5em;
+	font-size: .325em;
 	color: inherit;
 }
 
 ul.marker-circle>li {
-	padding-left: .875rem;
+	padding-left: .5rem;
 }
