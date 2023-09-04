@@ -41,7 +41,7 @@ document.write(`
             <div class="d-flex flex-column gap-2 flex-md-row">
                 <button class="btn border w-100 border-dark collapsed" data-bs-toggle="collapse"
                     data-bs-target="#kualifikasi1">Kualifikasi</button>
-                <button class="btn border w-100 border-dark">Lamar</button>
+                <a class="btn border w-100 border-dark" href="career_form1.html">Lamar</a>
             </div>
         </div>
     </div>
