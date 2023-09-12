@@ -115,3 +115,9 @@
         color: inherit;
     }
 }
+
+
+/* ============================ navbar sidebar */
+#navlang .nav-link::before {
+    background-color: transparent !important;
+}

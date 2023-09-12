@@ -84,3 +84,34 @@ ul.marker-circle>li::marker {
 ul.marker-circle>li {
 	padding-left: .5rem;
 }
+
+
+/* ---------------- custom form check */
+.form-check {
+	padding-left: 0;
+}
+
+.form-check .form-check-input {
+	margin-left: 0;
+}
+
+.form-check .form-check-label {
+	padding-left: .375rem;
+}
+
+.form-check,
+.form-check .form-check-label,
+.form-check .form-check-input {
+	cursor: pointer;
+}
+
+.form-check .form-check-input {
+	background-image: none !important;
+	background-color: #565656;
+	border-color: #565656;
+	opacity: .5;
+}
+
+.form-check .form-check-input:checked {
+	opacity: 1;
+}

@@ -1,5 +1,5 @@
 document.write(`
-<ul class="navbar-nav nav-breadcrumb ms-auto small">
+<ul class="navbar-nav nav-breadcrumb ms-auto small" id="navlang">
 	<li class="nav-item">
 		<a class="nav-link" href="#">
 			<h4>INDRACO store</h4>
