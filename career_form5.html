@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- add components head links -->
+    <script type="text/javascript" src="components/head_links.js"></script>
+    <title>INDRACO &bull; UI Karir</title>
+    <style type="text/css">
+        * {
+            /* outline: solid 1px green; */
+            outline: solid 1px transparent;
+        }
+
+        @media (min-width: 1200px) {
+            .form-group {
+                width: calc(460px + 1vw);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header navbar -->
+    <div id="topbar" class="sticky-top">
+        <script src="components/navbar.js"></script>
+    </div>
+
+    <!-- career banner -->
+    <script src="components/career_banner.js"></script>
+
+    <main class="wrapper container">
+
+        <section class="pt-4 pt-lg-5">
+            <form action="">
+                <div class="row row-cols-1 gy-5 mb-5">
+
+                    <div class="col">
+                        <h5 class="fw-medium fs-2 text-uppercase">Keluarga Yang Bisa Dihubungi</h5>
+                        <h5 class="fw-medium mb-4">Keluarga yang bisa dihubungi (Keluarga 1)</h5>
+                        <div
+                            class="row row-cols-1 row-cols-md-2 row-cols-xl-auto justify-content-xl-between gy-4 gx-md-5 mb-4">
+                            <div class="col">
+                                <div class="form-group border-bottom">
+                                    <label for="" class="form-label small">Nama</label>
+                                    <input class="form-control px-0" type="text" placeholder="Nama Lengkap Keluarga"
+                                        id="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group border-bottom">
+                                    <label for="" class="form-label small">Telepon/ HP</label>
+                                    <input class="form-control px-0" type="number" placeholder="Nomor Telepon/ HP"
+                                        id="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group border-bottom">
+                                    <label for="" class="form-label small">Pekerjaan</label>
+                                    <input class="form-control px-0" type="text" placeholder="Pekerjaan" id="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group border-bottom">
+                                    <label for="" class="form-label small">Hubungan Keluarga</label>
+                                    <input class="form-control px-0" type="text" placeholder="Hubungan Keluarga" id="">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn border-dark fst-italic">
+                            Tambah Keluarga Yang Bisa Dihubungi <i class="bi bi-plus"></i>
+                        </button>
+                    </div>
+
+                    <div class="col">
+                        <h5 class="fw-medium fs-2 text-uppercase mb-4">Riwayat Kesehatan</h5>
+                        <div
+                            class="row row-cols-1 row-cols-md-2 row-cols-xl-auto justify-content-xl-between gy-4 gx-md-5">
+                            <div class="col">
+                                <div class="form-group border-bottom">
+                                    <label for="" class="form-label small">Tinggi Badan</label>
+                                    <input class="form-control px-0" type="number" placeholder="Tinggi Badan" id="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group border-bottom">
+                                    <label for="" class="form-label small">Berat Badan</label>
+                                    <input class="form-control px-0" type="number" placeholder="Berat Badan" id="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="" class="form-label small">Merokok</label>
+                                    <div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input bg-dark" type="radio" name="merokok"
+                                                id="merokokY" value="option1">
+                                            <label class="form-check-label" for="merokokY">Ya</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input bg-dark" type="radio" name="merokok"
+                                                id="merokokN" value="option2">
+                                            <label class="form-check-label" for="merokokN">Tidak</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group border-bottom">
+                                    <label for="" class="form-label small">Jenis Penyakit</label>
+                                    <input class="form-control px-0" type="text"
+                                        placeholder="Jenis Penyakit Yang Pernah Di Derita" id="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-xxl-5 g-2 justify-content-between">
+                    <div class="col">
+                        <a class="btn border-dark w-100" href="career_form4.html">
+                            <i class="bi bi-chevron-left"></i> Sebelumnya
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="btn border-dark w-100" href="career_form6.html">
+                            Berikutnya <i class="bi bi-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- add components footer scripts -->
+    <script type="text/javascript" src="components/footer_scripts.js"></script>
+    <script>
+        $('#nav_career').addClass('active');
+    </script>
+
+</body>
+
+</html>

@@ -9,6 +9,10 @@ body {
 	overflow-x: hidden;
 }
 
+.wrapper {
+	min-height: 50vh;
+}
+
 .wrapper>section {
 	padding-top: calc(70px + 1vw);
 	margin-bottom: calc(70px + 1vw);
@@ -85,20 +89,6 @@ ul.marker-circle>li {
 	padding-left: .5rem;
 }
 
-
-/* ---------------- custom form check */
-.form-check {
-	padding-left: 0;
-}
-
-.form-check .form-check-input {
-	margin-left: 0;
-}
-
-.form-check .form-check-label {
-	padding-left: .375rem;
-}
-
 .form-check,
 .form-check .form-check-label,
 .form-check .form-check-input {
@@ -110,6 +100,7 @@ ul.marker-circle>li {
 	background-color: #565656;
 	border-color: #565656;
 	opacity: .5;
+	border-radius: 100%;
 }
 
 .form-check .form-check-input:checked {
