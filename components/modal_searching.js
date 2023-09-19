@@ -102,4 +102,10 @@ document.write(`
          </div>
       </div>
    </div>
+   <style>
+      #modalSearching .list-group-item.active {
+         background-color: #565656;
+         border-color: #565656;
+      }
+   </style>
 `)

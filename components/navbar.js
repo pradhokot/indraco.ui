@@ -10,7 +10,7 @@ document.write(`
             <img src="img/logo/logo-baru-dark.png" width="auto" height="36" alt="" class="d-none d-lg-block">
             <h1 class="position-absolute top-50 start-50 translate-middle fs-reset opacity-0">INDRACO</h1>
         </a>
-        <button class="navbar-toggler">
+        <button class="navbar-toggler" data-bs-toggle="modal" data-bs-target="#modalSearching">
             <i class="bi bi-search"></i>
         </button>
         <div class="collapse navbar-collapse">
@@ -73,7 +73,7 @@ document.write(`
                             </a>
                         </li>
                     </ul>
-                    <form class="d-none d-lg-flex border" role="search">
+                    <form class="d-none d-lg-flex border" role="search" data-bs-toggle="modal" data-bs-target="#modalSearching">
                         <input class="form-control me-2 bg-transparent border-0" type="search"
                             placeholder="Pencarian" aria-label="Search">
                         <button class="btn text-reset" type="submit">
