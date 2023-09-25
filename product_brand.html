@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- add components head links -->
+    <script type="text/javascript" src="components/head_links.js"></script>
+    <title>INDRACO &bull; UI Produk - Brands</title>
+    <style type="text/css">
+        * {
+            /* outline: solid 1px green; */
+            outline: solid 1px transparent;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header navbar -->
+    <div id="topbar" class="sticky-top">
+        <script src="components/navbar.js"></script>
+    </div>
+
+    <!-- breadcrumb product -->
+    <div class="pt-3">
+        <div class="container">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0" style="font-size: .875rem;">
+                    <li class="breadcrumb-item">
+                        <a class="text-reset" href="product.html">Produk</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <a class="text-reset" href="#">Supresso</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <main class="wrapper container">
+
+        <section class="pt-4 pt-lg-5">
+            <header class="text-center text-md-start">
+                <div class="row align-items-md-center">
+                    <div class="col col-12 col-md-auto order-md-2">
+                        <img src="img/logo/logosupresso.png" height="auto" style="width: calc(150px + 2vw);">
+                    </div>
+                    <div class="col col-12 col-md order-md-1">
+                        <h5 class="fw-thin display-3 lh-1 text-capitalize">
+                            Kopi <br>
+                            <strong class="fw-medium">Supresso</strong>
+                        </h5>
+                    </div>
+                </div>
+            </header>
+        </section>
+
+    </main>
+
+    <!-- add components footer scripts -->
+    <script type="text/javascript" src="components/footer_scripts.js"></script>
+    <script>
+        $('#nav_product').addClass('active');
+    </script>
+
+</body>
+
+</html>

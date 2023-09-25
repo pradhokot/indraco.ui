@@ -106,3 +106,10 @@ ul.marker-circle>li {
 .form-check .form-check-input:checked {
 	opacity: 1;
 }
+
+
+/* ---------------- custom breadcrumb */
+.breadcrumb .breadcrumb-item.active a {
+	text-decoration: none;
+	cursor: default;
+}
