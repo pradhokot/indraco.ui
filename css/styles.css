@@ -124,3 +124,16 @@ ul.marker-circle>li {
 .product-item:hover {
 	background-color: #f2f2f2;
 }
+
+
+/* ---------------- custom accordion */
+.accordion-button:not(.collapsed) {
+	box-shadow: none !important;
+	opacity: 1;
+}
+
+.accordion-button {
+	opacity: .5;
+	color: #565656 !important;
+	text-shadow: none !important;
+}

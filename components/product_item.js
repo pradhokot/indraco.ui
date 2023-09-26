@@ -1,5 +1,5 @@
 document.write(` 
-<a class="product-item text-decoration-none text-reset d-block rounded-4 overflow-hidden" href="#">
+<a class="product-item text-decoration-none text-reset d-block rounded-4 overflow-hidden" href="product_brand_item.html">
     <figure class="figure w-100">
         <div class="ratio ratio-1x1 figure-img">
             <!--
