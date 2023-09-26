@@ -8,11 +8,18 @@
 /* ============================ navbar */
 .navbar {
     padding: .75rem 0;
+    border-bottom: solid 1px transparent;
+    transition: all .36s;
 }
 
 @media (min-width: 992px) {
     .navbar {
         padding-top: calc(1.5rem + 1vw);
+    }
+
+    .on-scroll .navbar {
+        padding: .5rem 0;
+        border-bottom: solid 1px #dee2d6;
     }
 }
 
@@ -83,6 +90,23 @@
         bottom: .325rem;
         left: 50%;
         transform: translateX(-50%);
+    }
+}
+
+
+/* ============================ breadcrumb on navbar */
+.navbar-brand img {
+    height: 20px;
+    transition: all .36s;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand img {
+        height: 36px;
+    }
+
+    .on-scroll .navbar-brand img {
+        height: 24px;
     }
 }
 

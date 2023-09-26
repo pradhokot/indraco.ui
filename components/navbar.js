@@ -1,13 +1,12 @@
 document.write(`
-<nav class="navbar navbar-expand-lg d-block text-capitalize">
+<nav id="navtop" class="navbar navbar-expand-lg d-block text-capitalize">
 
     <div class="container">
         <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
             <i class="bi bi-three-dots-vertical"></i>
         </button>
         <a class="navbar-brand d-flex justify-content-center align-content-center m-0 position-relative" href="index.html">
-            <img src="img/logo/logo-baru-dark.png" width="auto" height="20" alt="" class="d-lg-none">
-            <img src="img/logo/logo-baru-dark.png" width="auto" height="36" alt="" class="d-none d-lg-block">
+            <img src="img/logo/logo-baru-dark.png" width="auto" alt="">
             <h1 class="position-absolute top-50 start-50 translate-middle fs-reset opacity-0">INDRACO</h1>
         </a>
         <button class="navbar-toggler" data-bs-toggle="modal" data-bs-target="#modalSearching">
@@ -49,7 +48,7 @@ document.write(`
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="nav_store" href="store.html">
-                                <h4>official store</h4>
+                                <h4>toko resmi</h4>
                             </a>
                         </li>
                         <li class="nav-item">

@@ -113,3 +113,14 @@ ul.marker-circle>li {
 	text-decoration: none;
 	cursor: default;
 }
+
+
+/* ---------------- custom product item */
+.product-item {
+	background-color: transparent;
+	transition: all .36s;
+}
+
+.product-item:hover {
+	background-color: #f2f2f2;
+}
